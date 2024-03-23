@@ -13,68 +13,6 @@ const Navbar = () => {
   <img src="Images/logo.png" alt="" className="img-2"/>
 </div>
 
-{/* <div id="nav">
-      <ul class="nav-menu clearfix unstyled">
-      <li onClick={() => fetchData("live")}><a  class="three-d">
-        LiveTV
-          <span class="three-d-box"><span class="front">LiveTV</span><span class="back">LiveTV</span></span>
-        </a></li> 
-
-        <li onClick={() => fetchData("latest")}><a  class="three-d">
-        Latest
-          <span class="three-d-box"><span class="front">Latest</span><span class="back">Latest</span></span>
-        </a></li>
-
-        <li onClick={() => fetchData("india")}><a  class="three-d">
-          India
-          <span class="three-d-box"><span class="front">India</span><span class="back">India</span></span>
-        </a></li>
-
-        <li onClick={() => fetchData("education")}><a  class="three-d">
-          Education
-          <span class="three-d-box"><span class="front">Education</span><span class="back">Education</span></span>
-        </a></li>
-
-        <li onClick={() => fetchData("world")}><a class="three-d">
-          World
-          <span class="three-d-box"><span class="front">World</span><span class="back">World</span></span>
-        </a></li>
-
-        <li onClick={() => fetchData("cities")}><a class="three-d">
-          Cities
-          <span class="three-d-box"><span class="front">Cities</span><span class="back">Cities</span></span>
-        </a></li>
-
-        <li onClick={() => fetchData("trend")}><a class="three-d">
-          Trend
-          <span class="three-d-box"><span class="front">Trend</span><span class="back">Trend</span></span>
-        </a></li>
-       
-        
-        <li onClick={() => fetchData("sports")}><a  class="three-d">
-          Sports
-          <span class="three-d-box"><span class="front">Sports</span><span class="back">Sports</span></span>
-        </a></li>
-
-        <li onClick={() => fetchData("bitcoin")}><a  class="three-d">
-        Bitcoin
-          <span class="three-d-box"><span class="front">Bitcoin</span><span class="back">Bitcoin</span></span>
-        </a></li>
-
-        <li onClick={() => fetchData("automobiles")}><a  class="three-d">
-        Automobiles
-          <span class="three-d-box"><span class="front">Automobiles</span><span class="back">Automobiles</span></span>
-        </a>
-        </li>
-        <li onClick={() => fetchData("technology")}><a  class="three-d">
-        Technology
-          <span class="three-d-box"><span class="front">Technology</span><span class="back">Technology</span></span>
-        </a></li>
-        
-      </ul>
-    </div> */}
-
-
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid" >
     {/* <a class="navbar-brand" href="#"></a> */}
@@ -141,21 +79,6 @@ const Navbar = () => {
         </a></li>
         
       </ul>
-
-      {/* <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul> */}
     </div>
   </div>
 </nav>
