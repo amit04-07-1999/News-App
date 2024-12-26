@@ -11,7 +11,6 @@ function NewsState({ children }) {
       const query = title || "general";
       const res = await fetch(`https://gnews.io/api/v4/top-headlines?q=${query}&apikey=1b433f2a2e9b6997f0259270cd0b3af8`);
       const resData = await res.json();
-      console.log(resData);
       setNewsApi(resData.articles);
     } finally {
       setLoading(false);
