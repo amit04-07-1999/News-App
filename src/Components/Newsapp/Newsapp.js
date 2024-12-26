@@ -104,3 +104,4 @@ const Newsapp = () => {
 };
 
 export default Newsapp;
+
