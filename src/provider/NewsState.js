@@ -9,7 +9,7 @@ function NewsState({ children }) {
     setLoading(true);
     try {
       const query = title || "general";
-      const res = await fetch(`https://gnews.io/api/v4/top-headlines?q=${query}&apikey=1b433f2a2e9b6997f0259270cd0b3af8`);
+      const res = await fetch(`https://gnews.io/api/v4/top-headlines?q=${query}&apikey=d1561b9a1c352425b78fd42024da7255`);
       const resData = await res.json();
       setNewsApi(resData.articles);
     } finally {
